@@ -1,0 +1,197 @@
+/*
+ Theme Name:   Drama Happens
+ Theme URI:    http://www.dramahappensblog.com
+ Description:  Drama Happens Theme
+ Author:       Iain Coffield
+ Template:     wordpress-bootstrap-master
+ Version:      1.0.0
+ Tags:         right-sidebar, responsive-layout
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../wordpress-bootstrap-master/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* =Header
+-------------------------------------------------------------- */
+.navbar {
+  margin: 36px 0px;
+}
+
+.navbar .navbar-inner {
+    background-image: url('images/pattern-e922.png');
+    border: 0px;
+    background-color: transparent;
+    background-repeat: repeat;
+}
+
+.navbar .navbar-inner .brand img {
+    float: left;
+}
+
+.navbar .navbar-inner a.brand {
+    width: 400px;
+}
+
+.navbar .navbar-inner .brand .logo-title {
+    padding-top: 35px;
+    display: block;
+}
+
+.navbar .navbar-inner .brand .logo-subtitle {
+    font-size: 13px;
+    display: block;
+}
+
+.navbar .nav {
+    margin: 40px 0 0 0;
+}
+
+.navbar .nav li a {
+    text-transform: capitalize;
+    text-shadow: none;
+}
+
+.navbar .nav .active a {
+    border-bottom: solid 1px #4f3843;
+    font-weight: bold;
+}
+
+.navbar .nav a:hover {
+    border-bottom: solid 1px #4f3843;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #4f3843;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.logo-title {
+    font-family: 'Marcellus SC', serif;
+    font-size: 30px;
+}
+
+/* =Carousel
+-------------------------------------------------------------- */
+.carousel {
+    margin-bottom: 0;
+}
+
+.carousel-caption a {
+    color: #EBE8E9;
+}
+
+/* =Article
+-------------------------------------------------------------- */
+
+#main article {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #4f3843;
+}
+
+p.tags {
+    margin: 10px 0 10px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #4f3843;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* =Sidebar
+-------------------------------------------------------------- */
+#sidebar1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+#sidebar1 li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+#sidebar1 li a:hover {
+  background: #f6f6f6;
+}
+
+/* =Page Elements
+-------------------------------------------------------------- */
+
+.page-header {
+    margin: 20px 0 10px;
+}
+
+/* =Input Elements
+-------------------------------------------------------------- */
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    color: #4f3843;
+}
+
+/* =General Elements
+-------------------------------------------------------------- */
+
+a, a:hover {
+    color: #4f3843;
+}
+
+.label, .badge {
+    background-color: #98536E;
+}
+
+time {
+    padding-right: 10px;
+}
+
+.form-actions {
+    background-color: transparent;
+}
+
+/* =Reusable Elements
+-------------------------------------------------------------- */
+.seperated:before, .seperated:after {
+  content:""; 
+  height:1px;
+  background:-moz-linear-gradient(left, rgba(255,0,0,0) 0%,#000000 50%,rgba(255,0,0,0) 100%); 
+  background:-webkit-linear-gradient(left, rgba(255,0,0,0) 0%,#000000 50%,rgba(255,0,0,0) 100%); 
+  background:linear-gradient(left, rgba(255,0,0,0) 0%,#000000 50%,rgba(255,0,0,0) 100%);
+  width:100%;
+  display:block;
+}
+
+.blockupper-lower {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dhicon{
+	background: url('images/dh-mini.png') no-repeat left top transparent;
+	padding-left: 20px;
+}

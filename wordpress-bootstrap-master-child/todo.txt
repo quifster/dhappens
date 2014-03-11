@@ -1,0 +1,6 @@
+Drama Happens ToDo
+------------------
+
+Remove the 0 in the footer
+Add in Special css markup for categories (drama lite, etc)
+Improve 1200x480 image so that it includes let's deal with it
